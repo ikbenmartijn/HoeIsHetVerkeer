@@ -34,10 +34,10 @@ function HaalMentionsSinds($sinceID) {
 	
 	echo "Authenticatiefase<br/>";
 	
-	define("CONSUMER_KEY", "RcYSKp48299J2GS5SxHww");
-	define("CONSUMER_SECRET", "hAgwnh5AGjC5BmYFxBKK6OICiUH0wygGl8gLD9js");
-	define("OAUTH_TOKEN", "454756155-hZ0CMdWaTuFZLnDxfQ2R94Ixt7DX3R72D2bL2XQx");
-	define("OAUTH_SECRET", "UIxBjGVyRlAAygir5NzuO6COq1iwQf1QJ8n0GzKnv10");
+	define("CONSUMER_KEY", "<REDACTZA>");
+	define("CONSUMER_SECRET", "<REDACTZA>");
+	define("OAUTH_TOKEN", "<REDACTZA>");
+	define("OAUTH_SECRET", "<REDACTZA>");
 	
 	$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_SECRET);
 	$content = $connection->get('account/verify_credentials');
