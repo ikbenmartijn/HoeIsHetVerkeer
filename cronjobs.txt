@@ -1,0 +1,4 @@
+*/2	*	*	*	*	/usr/local/bin/php /home/deb52217/domains/ikbenmartijn.be/public_html/hoeishetverkeer/v1/antwoorder.php >/dev/null 2>&1
+*/2	*	*	*	*	/usr/local/bin/php /home/deb52217/domains/ikbenmartijn.be/public_html/hoeishetverkeer/v1/twitterchecker.php >/dev/null 2>&1
+*/1	*	*	*	*	/usr/local/bin/php /home/deb52217/domains/ikbenmartijn.be/public_html/hoeishetverkeer/v1/answeringmachine.php >/dev/null 2>&1
+*/5	*	*	*	*	/usr/local/bin/php /home/deb52217/domains/ikbenmartijn.be/public_html/hoeishetverkeer/v1/cachemachine.php >/dev/null 2>&1
